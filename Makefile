@@ -45,3 +45,6 @@ brew-bundle-install:
 
 commit-push:
 	git add . && git commit -m "$(msg)" && git push
+
+install-alias:
+	echo "source $(PWD)/zalias" >> ~/.zshrc
