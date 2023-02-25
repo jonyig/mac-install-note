@@ -34,3 +34,9 @@ install:
 
 help: 
 	@echo "help..."
+
+
+mac-brew: 
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	brew install mas
+	brew bundle --file="./Brewfile"
