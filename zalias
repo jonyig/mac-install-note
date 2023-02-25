@@ -5,3 +5,5 @@ alias dp='docker ps'
 alias km8='k  --kubeconfig ~/.kube/m800-config '
 alias cobra='~/go/bin/cobra-cli'
 alias dlv='~/go/bin/dlv'
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
