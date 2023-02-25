@@ -1,0 +1,7 @@
+alias k=kubectl
+alias dk='docker'
+alias dkexec='docker exec -it'
+alias dp='docker ps'
+alias km8='k  --kubeconfig ~/.kube/m800-config '
+alias cobra='/Users/jonny/go/bin/cobra-cli'
+alias dlv='/Users/jonny/go/bin/dlv'
