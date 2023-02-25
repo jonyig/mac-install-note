@@ -9,7 +9,7 @@ make brew-bundle-dump
 ```
 ## brew backup install
 ```bash
-make brew-bundle-instlla
+make brew-bundle-install
 ```
 
 
