@@ -12,13 +12,12 @@ make brew-bundle-dump
 make brew-bundle-install
 ```
 
+## install zalias
+```bash
+make install-alias
+```
 
 ## optional (old for backup)
 ``` bash
 $ make install
 ```
-
-
-
-
-
