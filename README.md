@@ -3,10 +3,15 @@
 ```bash
 make brew-install
 ```
-## back brew 
+## brew backup
 ```bash
 make brew-bundle-dump
 ```
+## brew backup install
+```bash
+make brew-bundle-instlla
+```
+
 
 ## optional (old for backup)
 ``` bash
