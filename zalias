@@ -16,7 +16,13 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status ram time) # <= right prompt 設了 "t
 
 
 #plugin
-plugins=(git jsontools copyfile Copydir web-search)
+plugins=(
+    git
+    jsontools
+    copyfile
+    Copydir
+    web-search
+    )
 
 # load oh-my-zsh, after plugin , before kubectl line 28
 source $ZSH/oh-my-zsh.sh
@@ -24,4 +30,4 @@ source $ZSH/oh-my-zsh.sh
 #source
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source <(kubectl completion zsh)
+source <(kubectl c  ompletion zsh)
