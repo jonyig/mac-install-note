@@ -57,6 +57,8 @@ brew "wget"
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # Local dev environment attached to a remote Kubernetes cluster
 brew "datawire/blackbird/telepresence"
 # Blazingly-fast, rock-solid, local application development with Kubernetes
@@ -76,3 +78,11 @@ cask "font-sourcecodepro-nerd-font"
 cask "iterm2"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Telegram", id: 747648890
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
+mas "解壓專家Oka", id: 1441507725
