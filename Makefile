@@ -42,3 +42,6 @@ brew-install:
 	brew install mas
 brew-bundle-install: 
 	brew bundle --file="./Brewfile"
+
+commit-push:
+	git add . & git commit -m "$(msg)" & git push
