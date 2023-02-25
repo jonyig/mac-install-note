@@ -21,6 +21,8 @@ brew "curl"
 brew "dnsmasq"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Kubernetes package manager
+brew "helm"
 # Configurable static site generator
 brew "hugo"
 # Kubernetes command-line interface
