@@ -16,7 +16,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status ram time) # <= right prompt 設了 "t
 
 
 #plugin
-plugins=(git)
+plugins=(git jsontools copyfile Copydir web-search)
 
 # load oh-my-zsh, after plugin , before kubectl line 28
 source $ZSH/oh-my-zsh.sh
