@@ -1,3 +1,4 @@
+#alias 
 alias k='kubectl'
 alias dk='docker'
 alias dkexec='docker exec -it'
@@ -6,4 +7,8 @@ alias km8='k  --kubeconfig ~/.kube/m800-config '
 alias cobra='~/go/bin/cobra-cli'
 alias dlv='~/go/bin/dlv'
 
+
+#source
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source <(kubectl completion zsh)
