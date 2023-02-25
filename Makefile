@@ -35,8 +35,9 @@ install:
 help: 
 	@echo "help..."
 
-
-mac-brew: 
+brew-bundle-dump:
+	brew bundle dump --describe --force --file="./Brewfile"
+brew-bundle: 
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	brew install mas
 	brew bundle --file="./Brewfile"
