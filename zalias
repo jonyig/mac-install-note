@@ -1,4 +1,4 @@
-alias k=kubectl
+alias k='kubectl'
 alias dk='docker'
 alias dkexec='docker exec -it'
 alias dp='docker ps'
