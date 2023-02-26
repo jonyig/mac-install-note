@@ -32,3 +32,21 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source <(kubectl completion zsh)
 source <(helm completion zsh)
+
+
+# minikube
+
+
+# Autocompletion for Minikube.
+#
+if (( $+commands[minikube] )); then
+    __MINIKUBE_COMPLETION_FILE="${ZSH_CACHE_DIR}/minikube_completion"
+
+    if [[ ! -f $__MINIKUBE_COMPLETION_FILE ]]; then
+        minikube completion zsh >! $__MINIKUBE_COMPLETION_FILE
+    fi
+
+    [[ -f $__MINIKUBE_COMPLETION_FILE ]] && source $__MINIKUBE_COMPLETION_FILE
+
+    unset __MINIKUBE_COMPLETION_FILE
+fi
