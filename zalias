@@ -35,8 +35,6 @@ source <(helm completion zsh)
 
 
 # minikube
-
-
 # Autocompletion for Minikube.
 #
 if (( $+commands[minikube] )); then
