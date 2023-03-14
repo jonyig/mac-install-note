@@ -80,6 +80,8 @@ cask "font-sourcecodepro-nerd-font"
 cask "iterm2"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# Control your tools with a few keystrokes
+cask "raycast"
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Numbers", id: 409203825
