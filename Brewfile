@@ -80,6 +80,8 @@ cask "font-sourcecodepro-nerd-font"
 cask "iterm2"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# HTTP client that helps testing and describing APIs
+cask "paw"
 # Control your tools with a few keystrokes
 cask "raycast"
 mas "Keynote", id: 409183694
@@ -89,4 +91,3 @@ mas "Pages", id: 409201541
 mas "Telegram", id: 747648890
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
-mas "解壓專家Oka", id: 1441507725
