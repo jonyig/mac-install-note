@@ -48,3 +48,11 @@ commit-push:
 
 install-alias:
 	echo "source $(PWD)/zalias" >> ~/.zshrc
+
+
+## vscode
+
+code-dump:
+	code-insiders --list-extensions | sed -e 's/^/code-insiders --install-extension /' > vscode-extension.sh
+code-install:
+	bash vscode-extension.sh
