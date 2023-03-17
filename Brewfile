@@ -76,6 +76,8 @@ cask "another-redis-desktop-manager"
 # App to build and share containerized applications and microservices
 cask "docker"
 cask "font-sourcecodepro-nerd-font"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Reverse proxy, secure introspectable tunnels to localhost
