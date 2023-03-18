@@ -17,6 +17,8 @@ brew "composer"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Debugger for the Go programming language
+brew "delve"
 # Lightweight DNS forwarder and DHCP server
 brew "dnsmasq"
 # Open source programming language to build simple/reliable/efficient software
