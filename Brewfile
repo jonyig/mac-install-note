@@ -47,6 +47,12 @@ brew "nginx"
 brew "node"
 # General-purpose scripting language
 brew "php@7.3", link: true
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Go support for Google's protocol buffers
+brew "protoc-gen-go"
+# Protoc plugin that generates code for gRPC-Go clients
+brew "protoc-gen-go-grpc"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8", link: false
 # Easy and Repeatable Kubernetes Development
