@@ -6,7 +6,7 @@ alias dkexec='docker exec -it'
 alias dp='docker ps'
 alias km8='k  --kubeconfig ~/.kube/m800-config '
 alias cobra='~/go/bin/cobra-cli'
-# alias dlv='~/go/bin/dlv'
+# alias dlv='~/go/  bin/dlv'
 
 #zsh
 # command line 左邊想顯示的內容
