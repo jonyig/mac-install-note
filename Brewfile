@@ -9,18 +9,28 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "txn2/tap"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Dependency Manager for PHP
 brew "composer"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# C library implementing the SSH2 protocol
+brew "libssh2"
+# Open source suite of directory software
+brew "openldap"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Debugger for the Go programming language
 brew "delve"
 # Lightweight DNS forwarder and DHCP server
 brew "dnsmasq"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9", link: false
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Kubernetes package manager
@@ -47,6 +57,8 @@ brew "nginx"
 brew "node"
 # General-purpose scripting language
 brew "php@7.3", link: true
+# Python package management tool
+brew "poetry"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 # Go support for Google's protocol buffers
@@ -54,7 +66,7 @@ brew "protoc-gen-go"
 # Protoc plugin that generates code for gRPC-Go clients
 brew "protoc-gen-go-grpc"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.8", link: false
+brew "python@3.8"
 # Easy and Repeatable Kubernetes Development
 brew "skaffold"
 # User interface to the TELNET protocol
@@ -101,3 +113,4 @@ mas "Pages", id: 409201541
 mas "Telegram", id: 747648890
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
+mas "解壓專家Oka", id: 1441507725
