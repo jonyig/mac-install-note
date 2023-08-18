@@ -96,14 +96,14 @@ cask "another-redis-desktop-manager"
 # App to build and share containerized applications and microservices
 cask "docker"
 cask "font-sourcecodepro-nerd-font"
-# IDE for Java development - community edition
-cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # HTTP client that helps testing and describing APIs
 cask "paw"
+# IDE for Python programming - Community Edition
+cask "pycharm-ce"
 # Control your tools with a few keystrokes
 cask "raycast"
 mas "Keynote", id: 409183694
