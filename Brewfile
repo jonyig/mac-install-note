@@ -5,8 +5,6 @@ tap "datawire/blackbird"
 tap "gefyrahq/gefyra"
 tap "heroku/brew"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "txn2/tap"
 # Cryptography and SSL/TLS Toolkit

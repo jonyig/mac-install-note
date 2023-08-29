@@ -8,6 +8,7 @@ alias km8='k  --kubeconfig ~/.kube/m800-config '
 alias cobra='~/go/bin/cobra-cli'
 # alias dlv='~/go/  bin/dlv'
 alias py='python3'
+alias pycharm="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm"
 
 #kubefwd port
 alias kpdev='sh ~/.kube/kubefwd.sh dev-hk-03'
