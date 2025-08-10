@@ -15,6 +15,21 @@ alias kpdev='sh ~/.kube/kubefwd.sh dev-hk-03'
 alias kpint='sh ~/.kube/kubefwd.sh int-hk-02'
 alias kptb='sh ~/.kube/kubefwd.sh tb-hk-02'
 
+#show all local mongo
+alias show-tb-jp-local-mongo='aws ec2 describe-instances --filters "Name=tag:Name,Values=*mongo*" --query "Reservations[*].Instances[*].{Name:Tags[?Key=='Name'] | [0].Value, PrivateIP:PrivateIpAddress, InstanceID:InstanceId}" --output table --profile m800-tb-jp --region ap-northeast-1'
+ 
+ 
+#show all global mongo
+alias show-tb-jp-global-mongo='aws ec2 describe-instances --filters "Name=tag:Name,Values=*central*" --query "Reservations[*].Instances[*].{Name:Tags[?Key=='Name'] | [0].Value, PrivateIP:PrivateIpAddress, InstanceID:InstanceId}" --output table --profile m800-tb-jp --region ap-northeast-1'
+ 
+ 
+# forward global mongo
+alias fw-global-mongo="aws ssm start-session --target i-012228ac56e8f5a0b --region ap-northeast-1 --profile m800-tb-jp --document-name AWS-StartPortForwardingSession --parameters '{\"portNumber\":[\"37017\"], \"localPortNumber\":[\"37017\"]}'"
+ 
+ 
+# forward local mongo
+alias fw-local-mongo="aws ssm start-session --target i-082166fd5cf6ed62e --region ap-northeast-1 --profile m800-tb-jp --document-name AWS-StartPortForwardingSession --parameters '{\"portNumber\":[\"27017\"], \"localPortNumber\":[\"27017\"]}'"
+
 #zsh
 # command line 左邊想顯示的內容
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=( context dir vcs dir_writable) # <= left prompt 設了 "dir"
@@ -39,6 +54,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source <(kubectl completion zsh)
 source <(helm completion zsh)
+export GOPRIVATE=dev.azure.com/cinnox/*
 
 
 # minikube
